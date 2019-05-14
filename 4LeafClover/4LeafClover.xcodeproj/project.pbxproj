@@ -7,63 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A0E4B26228AFEA5000EDB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B25228AFEA5000EDB4B /* AppDelegate.swift */; };
-		7A0E4B28228AFEA5000EDB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B27228AFEA5000EDB4B /* ViewController.swift */; };
-		7A0E4B2A228AFEA7000EDB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E4B29228AFEA7000EDB4B /* Assets.xcassets */; };
-		7A0E4B2D228AFEA7000EDB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E4B2B228AFEA7000EDB4B /* Main.storyboard */; };
-		7A0E4B39228AFEA7000EDB4B /* _LeafCloverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B38228AFEA7000EDB4B /* _LeafCloverTests.swift */; };
-		7A0E4B44228AFEA7000EDB4B /* _LeafCloverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B43228AFEA7000EDB4B /* _LeafCloverUITests.swift */; };
+		7A0E4B6F228B05FE000EDB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B6E228B05FE000EDB4B /* AppDelegate.m */; };
+		7A0E4B72228B05FE000EDB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B71228B05FE000EDB4B /* ViewController.m */; };
+		7A0E4B74228B05FE000EDB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E4B73228B05FE000EDB4B /* Assets.xcassets */; };
+		7A0E4B77228B05FE000EDB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E4B75228B05FE000EDB4B /* Main.storyboard */; };
+		7A0E4B7A228B05FE000EDB4B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B79228B05FE000EDB4B /* main.mm */; };
+		7A0E4B85228B05FE000EDB4B /* _LeafCloverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B84228B05FE000EDB4B /* _LeafCloverTests.m */; };
+		7A0E4B90228B05FE000EDB4B /* _LeafCloverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B8F228B05FE000EDB4B /* _LeafCloverUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A0E4B35228AFEA7000EDB4B /* PBXContainerItemProxy */ = {
+		7A0E4B81228B05FE000EDB4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7A0E4B1A228AFEA5000EDB4B /* Project object */;
+			containerPortal = 7A0E4B62228B05FE000EDB4B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A0E4B21228AFEA5000EDB4B;
+			remoteGlobalIDString = 7A0E4B69228B05FE000EDB4B;
 			remoteInfo = 4LeafClover;
 		};
-		7A0E4B40228AFEA7000EDB4B /* PBXContainerItemProxy */ = {
+		7A0E4B8C228B05FE000EDB4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7A0E4B1A228AFEA5000EDB4B /* Project object */;
+			containerPortal = 7A0E4B62228B05FE000EDB4B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A0E4B21228AFEA5000EDB4B;
+			remoteGlobalIDString = 7A0E4B69228B05FE000EDB4B;
 			remoteInfo = 4LeafClover;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A0E4B22228AFEA5000EDB4B /* 4LeafClover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4LeafClover.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0E4B25228AFEA5000EDB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A0E4B27228AFEA5000EDB4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A0E4B29228AFEA7000EDB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A0E4B2C228AFEA7000EDB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A0E4B2E228AFEA7000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A0E4B2F228AFEA7000EDB4B /* _LeafClover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _LeafClover.entitlements; sourceTree = "<group>"; };
-		7A0E4B34228AFEA7000EDB4B /* 4LeafCloverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4LeafCloverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0E4B38228AFEA7000EDB4B /* _LeafCloverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _LeafCloverTests.swift; sourceTree = "<group>"; };
-		7A0E4B3A228AFEA7000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A0E4B3F228AFEA7000EDB4B /* 4LeafCloverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4LeafCloverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0E4B43228AFEA7000EDB4B /* _LeafCloverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _LeafCloverUITests.swift; sourceTree = "<group>"; };
-		7A0E4B45228AFEA7000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0E4B6A228B05FE000EDB4B /* 4LeafClover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4LeafClover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0E4B6D228B05FE000EDB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A0E4B6E228B05FE000EDB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A0E4B70228B05FE000EDB4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A0E4B71228B05FE000EDB4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A0E4B73228B05FE000EDB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0E4B76228B05FE000EDB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A0E4B78228B05FE000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0E4B79228B05FE000EDB4B /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		7A0E4B7B228B05FE000EDB4B /* _LeafClover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _LeafClover.entitlements; sourceTree = "<group>"; };
+		7A0E4B80228B05FE000EDB4B /* 4LeafCloverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4LeafCloverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0E4B84228B05FE000EDB4B /* _LeafCloverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _LeafCloverTests.m; sourceTree = "<group>"; };
+		7A0E4B86228B05FE000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0E4B8B228B05FE000EDB4B /* 4LeafCloverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4LeafCloverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0E4B8F228B05FE000EDB4B /* _LeafCloverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _LeafCloverUITests.m; sourceTree = "<group>"; };
+		7A0E4B91228B05FE000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A0E4B1F228AFEA5000EDB4B /* Frameworks */ = {
+		7A0E4B67228B05FE000EDB4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A0E4B31228AFEA7000EDB4B /* Frameworks */ = {
+		7A0E4B7D228B05FE000EDB4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A0E4B3C228AFEA7000EDB4B /* Frameworks */ = {
+		7A0E4B88228B05FE000EDB4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,53 +77,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A0E4B19228AFEA5000EDB4B = {
+		7A0E4B61228B05FE000EDB4B = {
 			isa = PBXGroup;
 			children = (
-				7A0E4B24228AFEA5000EDB4B /* 4LeafClover */,
-				7A0E4B37228AFEA7000EDB4B /* 4LeafCloverTests */,
-				7A0E4B42228AFEA7000EDB4B /* 4LeafCloverUITests */,
-				7A0E4B23228AFEA5000EDB4B /* Products */,
+				7A0E4B6C228B05FE000EDB4B /* 4LeafClover */,
+				7A0E4B83228B05FE000EDB4B /* 4LeafCloverTests */,
+				7A0E4B8E228B05FE000EDB4B /* 4LeafCloverUITests */,
+				7A0E4B6B228B05FE000EDB4B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A0E4B23228AFEA5000EDB4B /* Products */ = {
+		7A0E4B6B228B05FE000EDB4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A0E4B22228AFEA5000EDB4B /* 4LeafClover.app */,
-				7A0E4B34228AFEA7000EDB4B /* 4LeafCloverTests.xctest */,
-				7A0E4B3F228AFEA7000EDB4B /* 4LeafCloverUITests.xctest */,
+				7A0E4B6A228B05FE000EDB4B /* 4LeafClover.app */,
+				7A0E4B80228B05FE000EDB4B /* 4LeafCloverTests.xctest */,
+				7A0E4B8B228B05FE000EDB4B /* 4LeafCloverUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A0E4B24228AFEA5000EDB4B /* 4LeafClover */ = {
+		7A0E4B6C228B05FE000EDB4B /* 4LeafClover */ = {
 			isa = PBXGroup;
 			children = (
-				7A0E4B25228AFEA5000EDB4B /* AppDelegate.swift */,
-				7A0E4B27228AFEA5000EDB4B /* ViewController.swift */,
-				7A0E4B29228AFEA7000EDB4B /* Assets.xcassets */,
-				7A0E4B2B228AFEA7000EDB4B /* Main.storyboard */,
-				7A0E4B2E228AFEA7000EDB4B /* Info.plist */,
-				7A0E4B2F228AFEA7000EDB4B /* _LeafClover.entitlements */,
+				7A0E4B6D228B05FE000EDB4B /* AppDelegate.h */,
+				7A0E4B6E228B05FE000EDB4B /* AppDelegate.m */,
+				7A0E4B70228B05FE000EDB4B /* ViewController.h */,
+				7A0E4B71228B05FE000EDB4B /* ViewController.m */,
+				7A0E4B73228B05FE000EDB4B /* Assets.xcassets */,
+				7A0E4B75228B05FE000EDB4B /* Main.storyboard */,
+				7A0E4B78228B05FE000EDB4B /* Info.plist */,
+				7A0E4B79228B05FE000EDB4B /* main.mm */,
+				7A0E4B7B228B05FE000EDB4B /* _LeafClover.entitlements */,
 			);
 			path = 4LeafClover;
 			sourceTree = "<group>";
 		};
-		7A0E4B37228AFEA7000EDB4B /* 4LeafCloverTests */ = {
+		7A0E4B83228B05FE000EDB4B /* 4LeafCloverTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A0E4B38228AFEA7000EDB4B /* _LeafCloverTests.swift */,
-				7A0E4B3A228AFEA7000EDB4B /* Info.plist */,
+				7A0E4B84228B05FE000EDB4B /* _LeafCloverTests.m */,
+				7A0E4B86228B05FE000EDB4B /* Info.plist */,
 			);
 			path = 4LeafCloverTests;
 			sourceTree = "<group>";
 		};
-		7A0E4B42228AFEA7000EDB4B /* 4LeafCloverUITests */ = {
+		7A0E4B8E228B05FE000EDB4B /* 4LeafCloverUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7A0E4B43228AFEA7000EDB4B /* _LeafCloverUITests.swift */,
-				7A0E4B45228AFEA7000EDB4B /* Info.plist */,
+				7A0E4B8F228B05FE000EDB4B /* _LeafCloverUITests.m */,
+				7A0E4B91228B05FE000EDB4B /* Info.plist */,
 			);
 			path = 4LeafCloverUITests;
 			sourceTree = "<group>";
@@ -127,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A0E4B21228AFEA5000EDB4B /* 4LeafClover */ = {
+		7A0E4B69228B05FE000EDB4B /* 4LeafClover */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0E4B48228AFEA7000EDB4B /* Build configuration list for PBXNativeTarget "4LeafClover" */;
+			buildConfigurationList = 7A0E4B94228B05FE000EDB4B /* Build configuration list for PBXNativeTarget "4LeafClover" */;
 			buildPhases = (
-				7A0E4B1E228AFEA5000EDB4B /* Sources */,
-				7A0E4B1F228AFEA5000EDB4B /* Frameworks */,
-				7A0E4B20228AFEA5000EDB4B /* Resources */,
+				7A0E4B66228B05FE000EDB4B /* Sources */,
+				7A0E4B67228B05FE000EDB4B /* Frameworks */,
+				7A0E4B68228B05FE000EDB4B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -141,69 +148,68 @@
 			);
 			name = 4LeafClover;
 			productName = 4LeafClover;
-			productReference = 7A0E4B22228AFEA5000EDB4B /* 4LeafClover.app */;
+			productReference = 7A0E4B6A228B05FE000EDB4B /* 4LeafClover.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A0E4B33228AFEA7000EDB4B /* 4LeafCloverTests */ = {
+		7A0E4B7F228B05FE000EDB4B /* 4LeafCloverTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0E4B4B228AFEA7000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverTests" */;
+			buildConfigurationList = 7A0E4B97228B05FE000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverTests" */;
 			buildPhases = (
-				7A0E4B30228AFEA7000EDB4B /* Sources */,
-				7A0E4B31228AFEA7000EDB4B /* Frameworks */,
-				7A0E4B32228AFEA7000EDB4B /* Resources */,
+				7A0E4B7C228B05FE000EDB4B /* Sources */,
+				7A0E4B7D228B05FE000EDB4B /* Frameworks */,
+				7A0E4B7E228B05FE000EDB4B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A0E4B36228AFEA7000EDB4B /* PBXTargetDependency */,
+				7A0E4B82228B05FE000EDB4B /* PBXTargetDependency */,
 			);
 			name = 4LeafCloverTests;
 			productName = 4LeafCloverTests;
-			productReference = 7A0E4B34228AFEA7000EDB4B /* 4LeafCloverTests.xctest */;
+			productReference = 7A0E4B80228B05FE000EDB4B /* 4LeafCloverTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7A0E4B3E228AFEA7000EDB4B /* 4LeafCloverUITests */ = {
+		7A0E4B8A228B05FE000EDB4B /* 4LeafCloverUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0E4B4E228AFEA7000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverUITests" */;
+			buildConfigurationList = 7A0E4B9A228B05FE000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverUITests" */;
 			buildPhases = (
-				7A0E4B3B228AFEA7000EDB4B /* Sources */,
-				7A0E4B3C228AFEA7000EDB4B /* Frameworks */,
-				7A0E4B3D228AFEA7000EDB4B /* Resources */,
+				7A0E4B87228B05FE000EDB4B /* Sources */,
+				7A0E4B88228B05FE000EDB4B /* Frameworks */,
+				7A0E4B89228B05FE000EDB4B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A0E4B41228AFEA7000EDB4B /* PBXTargetDependency */,
+				7A0E4B8D228B05FE000EDB4B /* PBXTargetDependency */,
 			);
 			name = 4LeafCloverUITests;
 			productName = 4LeafCloverUITests;
-			productReference = 7A0E4B3F228AFEA7000EDB4B /* 4LeafCloverUITests.xctest */;
+			productReference = 7A0E4B8B228B05FE000EDB4B /* 4LeafCloverUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A0E4B1A228AFEA5000EDB4B /* Project object */ = {
+		7A0E4B62228B05FE000EDB4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Amn Ice";
 				TargetAttributes = {
-					7A0E4B21228AFEA5000EDB4B = {
+					7A0E4B69228B05FE000EDB4B = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					7A0E4B33228AFEA7000EDB4B = {
+					7A0E4B7F228B05FE000EDB4B = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 7A0E4B21228AFEA5000EDB4B;
+						TestTargetID = 7A0E4B69228B05FE000EDB4B;
 					};
-					7A0E4B3E228AFEA7000EDB4B = {
+					7A0E4B8A228B05FE000EDB4B = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 7A0E4B21228AFEA5000EDB4B;
+						TestTargetID = 7A0E4B69228B05FE000EDB4B;
 					};
 				};
 			};
-			buildConfigurationList = 7A0E4B1D228AFEA5000EDB4B /* Build configuration list for PBXProject "4LeafClover" */;
+			buildConfigurationList = 7A0E4B65228B05FE000EDB4B /* Build configuration list for PBXProject "4LeafClover" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,36 +217,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 7A0E4B19228AFEA5000EDB4B;
-			productRefGroup = 7A0E4B23228AFEA5000EDB4B /* Products */;
+			mainGroup = 7A0E4B61228B05FE000EDB4B;
+			productRefGroup = 7A0E4B6B228B05FE000EDB4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A0E4B21228AFEA5000EDB4B /* 4LeafClover */,
-				7A0E4B33228AFEA7000EDB4B /* 4LeafCloverTests */,
-				7A0E4B3E228AFEA7000EDB4B /* 4LeafCloverUITests */,
+				7A0E4B69228B05FE000EDB4B /* 4LeafClover */,
+				7A0E4B7F228B05FE000EDB4B /* 4LeafCloverTests */,
+				7A0E4B8A228B05FE000EDB4B /* 4LeafCloverUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A0E4B20228AFEA5000EDB4B /* Resources */ = {
+		7A0E4B68228B05FE000EDB4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0E4B2A228AFEA7000EDB4B /* Assets.xcassets in Resources */,
-				7A0E4B2D228AFEA7000EDB4B /* Main.storyboard in Resources */,
+				7A0E4B74228B05FE000EDB4B /* Assets.xcassets in Resources */,
+				7A0E4B77228B05FE000EDB4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A0E4B32228AFEA7000EDB4B /* Resources */ = {
+		7A0E4B7E228B05FE000EDB4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A0E4B3D228AFEA7000EDB4B /* Resources */ = {
+		7A0E4B89228B05FE000EDB4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,51 +256,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A0E4B1E228AFEA5000EDB4B /* Sources */ = {
+		7A0E4B66228B05FE000EDB4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0E4B28228AFEA5000EDB4B /* ViewController.swift in Sources */,
-				7A0E4B26228AFEA5000EDB4B /* AppDelegate.swift in Sources */,
+				7A0E4B72228B05FE000EDB4B /* ViewController.m in Sources */,
+				7A0E4B7A228B05FE000EDB4B /* main.mm in Sources */,
+				7A0E4B6F228B05FE000EDB4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A0E4B30228AFEA7000EDB4B /* Sources */ = {
+		7A0E4B7C228B05FE000EDB4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0E4B39228AFEA7000EDB4B /* _LeafCloverTests.swift in Sources */,
+				7A0E4B85228B05FE000EDB4B /* _LeafCloverTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A0E4B3B228AFEA7000EDB4B /* Sources */ = {
+		7A0E4B87228B05FE000EDB4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0E4B44228AFEA7000EDB4B /* _LeafCloverUITests.swift in Sources */,
+				7A0E4B90228B05FE000EDB4B /* _LeafCloverUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A0E4B36228AFEA7000EDB4B /* PBXTargetDependency */ = {
+		7A0E4B82228B05FE000EDB4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A0E4B21228AFEA5000EDB4B /* 4LeafClover */;
-			targetProxy = 7A0E4B35228AFEA7000EDB4B /* PBXContainerItemProxy */;
+			target = 7A0E4B69228B05FE000EDB4B /* 4LeafClover */;
+			targetProxy = 7A0E4B81228B05FE000EDB4B /* PBXContainerItemProxy */;
 		};
-		7A0E4B41228AFEA7000EDB4B /* PBXTargetDependency */ = {
+		7A0E4B8D228B05FE000EDB4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A0E4B21228AFEA5000EDB4B /* 4LeafClover */;
-			targetProxy = 7A0E4B40228AFEA7000EDB4B /* PBXContainerItemProxy */;
+			target = 7A0E4B69228B05FE000EDB4B /* 4LeafClover */;
+			targetProxy = 7A0E4B8C228B05FE000EDB4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7A0E4B2B228AFEA7000EDB4B /* Main.storyboard */ = {
+		7A0E4B75228B05FE000EDB4B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A0E4B2C228AFEA7000EDB4B /* Base */,
+				7A0E4B76228B05FE000EDB4B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -302,7 +309,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7A0E4B46228AFEA7000EDB4B /* Debug */ = {
+		7A0E4B92228B05FE000EDB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,12 +365,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		7A0E4B47228AFEA7000EDB4B /* Release */ = {
+		7A0E4B93228B05FE000EDB4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,12 +417,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		7A0E4B49228AFEA7000EDB4B /* Debug */ = {
+		7A0E4B95228B05FE000EDB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -432,11 +435,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RainFair-Studio.-LeafClover";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		7A0E4B4A228AFEA7000EDB4B /* Release */ = {
+		7A0E4B96228B05FE000EDB4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -451,14 +453,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RainFair-Studio.-LeafClover";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		7A0E4B4C228AFEA7000EDB4B /* Debug */ = {
+		7A0E4B98228B05FE000EDB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -471,15 +471,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RainFair-Studio.-LeafCloverTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4LeafClover.app/Contents/MacOS/4LeafClover";
 			};
 			name = Debug;
 		};
-		7A0E4B4D228AFEA7000EDB4B /* Release */ = {
+		7A0E4B99228B05FE000EDB4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -492,15 +490,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RainFair-Studio.-LeafCloverTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4LeafClover.app/Contents/MacOS/4LeafClover";
 			};
 			name = Release;
 		};
-		7A0E4B4F228AFEA7000EDB4B /* Debug */ = {
+		7A0E4B9B228B05FE000EDB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G2MTG2NMAT;
@@ -512,15 +508,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RainFair-Studio.-LeafCloverUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = 4LeafClover;
 			};
 			name = Debug;
 		};
-		7A0E4B50228AFEA7000EDB4B /* Release */ = {
+		7A0E4B9C228B05FE000EDB4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G2MTG2NMAT;
@@ -532,7 +526,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RainFair-Studio.-LeafCloverUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = 4LeafClover;
 			};
 			name = Release;
@@ -540,43 +533,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A0E4B1D228AFEA5000EDB4B /* Build configuration list for PBXProject "4LeafClover" */ = {
+		7A0E4B65228B05FE000EDB4B /* Build configuration list for PBXProject "4LeafClover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A0E4B46228AFEA7000EDB4B /* Debug */,
-				7A0E4B47228AFEA7000EDB4B /* Release */,
+				7A0E4B92228B05FE000EDB4B /* Debug */,
+				7A0E4B93228B05FE000EDB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0E4B48228AFEA7000EDB4B /* Build configuration list for PBXNativeTarget "4LeafClover" */ = {
+		7A0E4B94228B05FE000EDB4B /* Build configuration list for PBXNativeTarget "4LeafClover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A0E4B49228AFEA7000EDB4B /* Debug */,
-				7A0E4B4A228AFEA7000EDB4B /* Release */,
+				7A0E4B95228B05FE000EDB4B /* Debug */,
+				7A0E4B96228B05FE000EDB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0E4B4B228AFEA7000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverTests" */ = {
+		7A0E4B97228B05FE000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A0E4B4C228AFEA7000EDB4B /* Debug */,
-				7A0E4B4D228AFEA7000EDB4B /* Release */,
+				7A0E4B98228B05FE000EDB4B /* Debug */,
+				7A0E4B99228B05FE000EDB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0E4B4E228AFEA7000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverUITests" */ = {
+		7A0E4B9A228B05FE000EDB4B /* Build configuration list for PBXNativeTarget "4LeafCloverUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A0E4B4F228AFEA7000EDB4B /* Debug */,
-				7A0E4B50228AFEA7000EDB4B /* Release */,
+				7A0E4B9B228B05FE000EDB4B /* Debug */,
+				7A0E4B9C228B05FE000EDB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7A0E4B1A228AFEA5000EDB4B /* Project object */;
+	rootObject = 7A0E4B62228B05FE000EDB4B /* Project object */;
 }
