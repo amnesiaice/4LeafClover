@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyTest.hpp"
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -21,6 +21,10 @@
     [super setRepresentedObject:representedObject];
 
     // Update the view, if already loaded.
+}
+- (IBAction)TestPrint:(id)sender {
+    MyTest a;
+    a.TestPrint();
 }
 
 

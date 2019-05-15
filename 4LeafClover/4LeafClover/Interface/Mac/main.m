@@ -7,12 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MyTest.hpp"
 
 int main(int argc, const char * argv[]) {
-
-    
-    MyTest aw;
-    aw.TestPrint();
     return NSApplicationMain(argc, argv);
 }

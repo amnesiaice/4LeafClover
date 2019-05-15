@@ -10,6 +10,6 @@
 
 @interface ViewController : NSViewController
 
-
+- (IBAction)TestPrint:(id)sender;
 @end
 
