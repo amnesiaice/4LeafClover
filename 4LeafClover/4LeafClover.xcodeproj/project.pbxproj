@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7A0E4B6F228B05FE000EDB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B6E228B05FE000EDB4B /* AppDelegate.m */; };
+<<<<<<< HEAD
+		7A0E4B72228B05FE000EDB4B /* DrawOnePictureView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B71228B05FE000EDB4B /* DrawOnePictureView.mm */; };
+=======
 		7A0E4B72228B05FE000EDB4B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B71228B05FE000EDB4B /* ViewController.mm */; };
+>>>>>>> ae1f8fe77962c4d16fcf647adbec6a1e9e7f7a99
 		7A0E4B74228B05FE000EDB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E4B73228B05FE000EDB4B /* Assets.xcassets */; };
 		7A0E4B77228B05FE000EDB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E4B75228B05FE000EDB4B /* Main.storyboard */; };
 		7A0E4B7A228B05FE000EDB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B79228B05FE000EDB4B /* main.m */; };
@@ -38,8 +42,13 @@
 		7A0E4B6A228B05FE000EDB4B /* 4LeafClover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4LeafClover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0E4B6D228B05FE000EDB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A0E4B6E228B05FE000EDB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		7A0E4B70228B05FE000EDB4B /* DrawOnePictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawOnePictureView.h; sourceTree = "<group>"; };
+		7A0E4B71228B05FE000EDB4B /* DrawOnePictureView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DrawOnePictureView.mm; sourceTree = "<group>"; };
+=======
 		7A0E4B70228B05FE000EDB4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7A0E4B71228B05FE000EDB4B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+>>>>>>> ae1f8fe77962c4d16fcf647adbec6a1e9e7f7a99
 		7A0E4B73228B05FE000EDB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0E4B76228B05FE000EDB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A0E4B78228B05FE000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -151,8 +160,13 @@
 			children = (
 				7A0E4B6D228B05FE000EDB4B /* AppDelegate.h */,
 				7A0E4B6E228B05FE000EDB4B /* AppDelegate.m */,
+<<<<<<< HEAD
+				7A0E4B70228B05FE000EDB4B /* DrawOnePictureView.h */,
+				7A0E4B71228B05FE000EDB4B /* DrawOnePictureView.mm */,
+=======
 				7A0E4B70228B05FE000EDB4B /* ViewController.h */,
 				7A0E4B71228B05FE000EDB4B /* ViewController.mm */,
+>>>>>>> ae1f8fe77962c4d16fcf647adbec6a1e9e7f7a99
 				7A0E4B73228B05FE000EDB4B /* Assets.xcassets */,
 				7A0E4B75228B05FE000EDB4B /* Main.storyboard */,
 				7A0E4B79228B05FE000EDB4B /* main.m */,
@@ -289,7 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+				7A0E4B72228B05FE000EDB4B /* DrawOnePictureView.mm in Sources */,
+=======
 				7A0E4B72228B05FE000EDB4B /* ViewController.mm in Sources */,
+>>>>>>> ae1f8fe77962c4d16fcf647adbec6a1e9e7f7a99
 				7A0E4BA1228B1EFC000EDB4B /* MyTest.cpp in Sources */,
 				7A0E4B7A228B05FE000EDB4B /* main.m in Sources */,
 				7A0E4B6F228B05FE000EDB4B /* AppDelegate.m in Sources */,
