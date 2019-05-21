@@ -706,20 +706,12 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="DrawOnePictureView" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="732" height="384"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z4O-qE-IO3">
-                                <rect key="frame" x="128" y="120" width="263" height="139"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="139" id="0S6-dL-iRt"/>
-                                    <constraint firstAttribute="width" constant="263" id="FJC-cW-xmj"/>
-                                </constraints>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="1gB-rj-Vrm"/>
-                            </imageView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mrh-gk-CaS">
-                                <rect key="frame" x="56" y="216" width="70" height="32"/>
-                                <buttonCell key="cell" type="push" title="draw" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="czw-bn-eeN">
+                                <rect key="frame" x="56" y="330" width="64" height="32"/>
+                                <buttonCell key="cell" type="push" title="test" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="czw-bn-eeN">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -727,18 +719,42 @@
                                     <action selector="TestPrint:" target="XfG-lQ-9wD" id="tsU-mb-GCm"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Xw9-Xz-BD6">
+                                <rect key="frame" x="-3" y="299" width="128" height="32"/>
+                                <buttonCell key="cell" type="push" title="Draw a picture" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1AC-b6-7Uq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="DrawTestPicture:" target="XfG-lQ-9wD" id="5rL-E3-HtN"/>
+                                </connections>
+                            </button>
+                            <imageView identifier="pictureImageView" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dfg-sz-j0n">
+                                <rect key="frame" x="168" y="55" width="529" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="529" id="NqR-Mm-Up5"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="w6v-1f-yui"/>
+                            </imageView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="z4O-qE-IO3" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="11" id="b8F-FT-dVv"/>
-                            <constraint firstItem="z4O-qE-IO3" firstAttribute="leading" secondItem="mrh-gk-CaS" secondAttribute="trailing" constant="8" symbolic="YES" id="m0M-iu-7vf"/>
+                            <constraint firstItem="Xw9-Xz-BD6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="3" id="2cl-ma-Ora"/>
+                            <constraint firstItem="Dfg-sz-j0n" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mrh-gk-CaS" secondAttribute="trailing" constant="8" symbolic="YES" id="Cdp-Kk-Tpy"/>
+                            <constraint firstItem="Dfg-sz-j0n" firstAttribute="leading" secondItem="Xw9-Xz-BD6" secondAttribute="trailing" constant="49" id="Xhf-8v-Dav"/>
+                            <constraint firstItem="Xw9-Xz-BD6" firstAttribute="top" secondItem="mrh-gk-CaS" secondAttribute="bottom" constant="10" id="cFI-TH-fEx"/>
+                            <constraint firstAttribute="bottom" secondItem="Dfg-sz-j0n" secondAttribute="bottom" constant="55" id="hK7-Gn-fdi"/>
                             <constraint firstItem="mrh-gk-CaS" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="26" id="mcS-gI-IRS"/>
                             <constraint firstItem="mrh-gk-CaS" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="62" id="upG-eb-1Eb"/>
+                            <constraint firstItem="Dfg-sz-j0n" firstAttribute="top" secondItem="mrh-gk-CaS" secondAttribute="top" id="vHZ-eB-9Tb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="renderedImageView" destination="Dfg-sz-j0n" id="hTE-k0-m8a"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="201" y="712"/>
         </scene>
     </scenes>
 </document>

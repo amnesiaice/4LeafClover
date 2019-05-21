@@ -10,9 +10,13 @@
 #define MyTest_hpp
 
 #include <stdio.h>
-class MyTest
+#include <string>
+using namespace std;
+class DrawOnePictureInterface
 {
     public:
         void TestPrint();
+        void TestPrint(string str);
+        void DrawOnePicture();
 };
 #endif /* Test_hpp */

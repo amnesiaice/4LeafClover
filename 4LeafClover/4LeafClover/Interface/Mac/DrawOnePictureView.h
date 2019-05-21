@@ -9,7 +9,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface DrawOnePictureView : NSViewController
+@property (weak) IBOutlet NSImageView *renderedImageView;
 
 - (IBAction)TestPrint:(id)sender;
+- (IBAction)DrawTestPicture:(id)sender;
 @end
 
