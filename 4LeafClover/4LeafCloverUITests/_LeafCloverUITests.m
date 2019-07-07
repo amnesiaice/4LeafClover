@@ -16,7 +16,7 @@
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
-
+    
     // In UI tests it is usually best to stop immediately when a failure occurs.
     self.continueAfterFailure = NO;
 
@@ -32,6 +32,11 @@
 
 - (void)testExample {
     // Use recording to get started writing UI tests.
+    
+    XCUIElement *window = [[XCUIApplication alloc] init].windows[@"Window"];
+    [window.buttons[@"test"] click];
+    [window.buttons[@"Draw a picture"] click];
+
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 

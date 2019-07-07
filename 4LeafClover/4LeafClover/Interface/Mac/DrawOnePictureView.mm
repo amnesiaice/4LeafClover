@@ -36,8 +36,8 @@
     //prepare image
 //    CIImage *preTestImage = [[CIImage alloc] initWithColor:CIColor.blueColor];
 
-    const int lWidth = 180;
-    const int lHeight = 130;
+    const int lWidth = 480;
+    const int lHeight = 330;
     NSSize imageSize = {.height = lHeight, .width = lWidth};
     NSImage *testImage = [[NSImage alloc] initWithSize:imageSize];
 
