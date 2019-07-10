@@ -55,19 +55,19 @@
                              bitsPerPixel: 32];
     
     [testImage addRepresentation:rep];
+ 
+//    NSGraphicsContext *ctx = [NSGraphicsContext graphicsContextWithBitmapImageRep: rep];
     
-    NSGraphicsContext *ctx = [NSGraphicsContext graphicsContextWithBitmapImageRep: rep];
-    
-    [NSGraphicsContext saveGraphicsState];
-    [NSGraphicsContext setCurrentContext: ctx];
+//    [NSGraphicsContext saveGraphicsState];
+//    [NSGraphicsContext setCurrentContext: ctx];
     
      struct Pixel { uint8_t r, g, b, a; };
      struct Pixel *pixels = (struct Pixel *)[rep bitmapData];
     struct Pixel colorpixels;
-    colorpixels.r =100;
-    colorpixels.g =0;
-    colorpixels.b =0;
-    colorpixels.a =100;
+    colorpixels.r =255;
+    colorpixels.g =255;
+    colorpixels.b =255;
+    colorpixels.a =255;
     for(int y = 0; y < lHeight; y++)
         for(int x = 0; x < lWidth; x++)
         {
@@ -80,7 +80,7 @@
     //prepare ImageView
 //    self.renderedImageView.layer.backgroundColor = CGColorGetConstantColor(kCGColorWhite);
     self.renderedImageView.image = testImage;
-    [testImage drawAtPoint: NSZeroPoint fromRect: NSZeroRect operation: NSCompositingOperationCopy fraction: 1.0];
+//    [testImage drawAtPoint: NSZeroPoint fromRect: NSZeroRect operation: NSCompositingOperationCopy fraction: 1.0];
     
 }
 
