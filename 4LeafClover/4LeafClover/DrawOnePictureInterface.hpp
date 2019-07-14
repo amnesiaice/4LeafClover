@@ -14,9 +14,14 @@
 using namespace std;
 class DrawOnePictureInterface
 {
-    public:
-        void TestPrint();
-        void TestPrint(string str);
-        void DrawOnePicture();
+public:
+    void TestPrint();
+    void TestPrint(string str);
+    void DrawOnePicture();
+    float** SetImage(float** inImage);
+    
+        //property
+private:
+    float** mImageArray;
 };
 #endif /* Test_hpp */

@@ -32,9 +32,6 @@
 - (IBAction)DrawTestPicture:(id) sender {
     DrawOnePictureInterface testIcon;
     testIcon.TestPrint("Draw a test picture");
-    
-    //prepare image
-//    CIImage *preTestImage = [[CIImage alloc] initWithColor:CIColor.blueColor];
 
     const int lWidth = 480;
     const int lHeight = 330;
@@ -55,11 +52,6 @@
                              bitsPerPixel: 32];
     
     [testImage addRepresentation:rep];
- 
-//    NSGraphicsContext *ctx = [NSGraphicsContext graphicsContextWithBitmapImageRep: rep];
-    
-//    [NSGraphicsContext saveGraphicsState];
-//    [NSGraphicsContext setCurrentContext: ctx];
     
      struct Pixel { uint8_t r, g, b, a; };
      struct Pixel *pixels = (struct Pixel *)[rep bitmapData];
@@ -78,11 +70,11 @@
     
     
     //prepare ImageView
-//    self.renderedImageView.layer.backgroundColor = CGColorGetConstantColor(kCGColorWhite);
     self.renderedImageView.image = testImage;
-//    [testImage drawAtPoint: NSZeroPoint fromRect: NSZeroRect operation: NSCompositingOperationCopy fraction: 1.0];
     
 }
-
-
+- (int**)PrepareImageArray:(float**)inImageArray
+{
+    return inImageArray;
+}
 @end

@@ -13,5 +13,7 @@
 
 - (IBAction)TestPrint:(id)sender;
 - (IBAction)DrawTestPicture:(id)sender;
+- (int**)PrepareImageArray:(float**)inImageArray;
+
 @end
 

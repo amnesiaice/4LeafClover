@@ -21,3 +21,7 @@ void DrawOnePictureInterface::DrawOnePicture()
 {
     cout<<"Draw one picture test"<<endl;
 }
+float ** DrawOnePictureInterface::SetImage(float ** inArray)
+{
+    return mImageArray;
+}
