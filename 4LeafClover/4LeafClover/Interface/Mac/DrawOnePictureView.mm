@@ -65,7 +65,7 @@
         {
             int index = x + y * lWidth;
             // Use pixels[index] here
-            pixels[index] = colorpixels;
+            pixels[index] = colorpixels   ;
         }
     
     
@@ -73,8 +73,9 @@
     self.renderedImageView.image = testImage;
     
 }
-- (int**)PrepareImageArray:(float**)inImageArray
-{
-    return inImageArray;
+
+- (void)DrawPoint:(int)inX ycoord:(int)inY { 
+    ;
 }
+
 @end

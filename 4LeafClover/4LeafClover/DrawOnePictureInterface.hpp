@@ -10,18 +10,30 @@
 #define MyTest_hpp
 
 #include <stdio.h>
+#include <vector>
 #include <string>
 using namespace std;
 class DrawOnePictureInterface
 {
 public:
+    struct InterfaceColor//color value of 0-1
+    {
+        float colorR;
+        float colorG;
+        float colorB;
+        float alphaValue;
+    };
+    
+    //interface
     void TestPrint();
     void TestPrint(string str);
     void DrawOnePicture();
-    float** SetImage(float** inImage);
+    float* GetPoint(int inX, int inY);
+    void SetPoint(int inX, int inY, InterfaceColor inColor);
     
-        //property
+    
 private:
-    float** mImageArray;
+    //property
+    vector<vector<InterfaceColor>> mImageArray;//mImageArray[x][y]
 };
 #endif /* Test_hpp */
