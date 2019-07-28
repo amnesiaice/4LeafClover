@@ -5,9 +5,8 @@
 //  Created by Amn Ice on 2019/5/14.
 //  Copyright © 2019 Amn Ice. All rights reserved.
 //
-
 #import "DrawOnePictureView.h"
-#import "DrawOnePictureInterface.hpp"
+
 
 @implementation DrawOnePictureView
 //MARK: Properties
@@ -30,15 +29,23 @@
 }
 
 - (IBAction)DrawTestPicture:(id) sender {
-    DrawOnePictureInterface testIcon;
-    testIcon.TestPrint("Draw a test picture");
+    [self _UIDrawPicture];
+    
+}
 
-    const int lWidth = 480;
-    const int lHeight = 330;
+- (void)_UIDrawPicture
+{
+    self.iconInterface.TestPrint("Call _UIDrawPicture to draw buffer to NSView");
+    
+    //prepare const
+    CGFloat lWidth = self.iconInterface.GetWidth();
+    CGFloat lHeight = self.iconInterface.GetHeight();
+    
+    //prepare image
     NSSize imageSize = {.height = lHeight, .width = lWidth};
-    NSImage *testImage = [[NSImage alloc] initWithSize:imageSize];
-
-
+    NSImage *toDrawImage = [[NSImage alloc] initWithSize:imageSize];
+    
+    //prepare rep(bitmap data for the image)
     NSBitmapImageRep *rep = [[NSBitmapImageRep alloc]
                              initWithBitmapDataPlanes: NULL
                              pixelsWide: lWidth
@@ -51,31 +58,24 @@
                              bytesPerRow: lWidth * 4
                              bitsPerPixel: 32];
     
-    [testImage addRepresentation:rep];
+    [toDrawImage addRepresentation:rep];
     
-     struct Pixel { uint8_t r, g, b, a; };
-     struct Pixel *pixels = (struct Pixel *)[rep bitmapData];
-    struct Pixel colorpixels;
-    colorpixels.r =255;
-    colorpixels.g =255;
-    colorpixels.b =255;
-    colorpixels.a =255;
+    //set rep data with self.iconInterface.mImageArray
+    UInt8Color *pixels = (UInt8Color *)[rep bitmapData];
+    FloatColor colorpixels;
     for(int y = 0; y < lHeight; y++)
+    {
         for(int x = 0; x < lWidth; x++)
         {
             int index = x + y * lWidth;
             // Use pixels[index] here
-            pixels[index] = colorpixels   ;
+            pixels[index] = FloatColorToUint8Color(colorpixels);
         }
+    }
     
-    
-    //prepare ImageView
-    self.renderedImageView.image = testImage;
-    
-}
+    //assign image view with rep data
+    self.renderedImageView.image = toDrawImage;
 
-- (void)DrawPoint:(int)inX ycoord:(int)inY { 
-    ;
 }
 
 @end

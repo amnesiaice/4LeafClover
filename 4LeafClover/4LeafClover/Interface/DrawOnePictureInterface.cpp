@@ -35,8 +35,19 @@ float* DrawOnePictureInterface::GetPoint(int inX, int inY) {
     return outColor;
 }
 
-void DrawOnePictureInterface::SetPoint(int inX, int inY, InterfaceColor inColor)
+void DrawOnePictureInterface::SetPoint(int inX, int inY, FloatColor inColor)
 {
     mImageArray[inX][inY]=inColor;
 }
-;
+
+int DrawOnePictureInterface::GetWidth()
+{
+    int outWidth = (int)mImageArray.size();
+    return outWidth;
+}
+
+int DrawOnePictureInterface::GetHeight()
+{
+    int outHeight = (int)mImageArray[0].size();
+    return outHeight;
+}

@@ -8,12 +8,17 @@
 
 #import <Cocoa/Cocoa.h>
 #import <vector>
+#import "DrawOnePictureInterface.hpp"
+
 
 @interface DrawOnePictureView : NSViewController
 @property (weak) IBOutlet NSImageView *renderedImageView;
+@property DrawOnePictureInterface iconInterface;
 
 - (IBAction)TestPrint:(id)sender;
 - (IBAction)DrawTestPicture:(id)sender;
-- (void)DrawPoint:(int)inX ycoord:(int)inY;
 
+- (void)_UIDrawPicture;
 @end
+
+

@@ -14,6 +14,7 @@
 		7A0E4B7A228B05FE000EDB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B79228B05FE000EDB4B /* main.m */; };
 		7A0E4B85228B05FE000EDB4B /* _LeafCloverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B84228B05FE000EDB4B /* _LeafCloverTests.m */; };
 		7A0E4B90228B05FE000EDB4B /* _LeafCloverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E4B8F228B05FE000EDB4B /* _LeafCloverUITests.m */; };
+		7A0EDC3422ED86AC00F8B3C5 /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EDC3322ED86AC00F8B3C5 /* Common.cpp */; };
 		7A90B5A922DB72B700A430FE /* DrawOnePictureInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A90B5A822DB72B700A430FE /* DrawOnePictureInterface.cpp */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +52,10 @@
 		7A0E4B8B228B05FE000EDB4B /* 4LeafCloverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4LeafCloverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0E4B8F228B05FE000EDB4B /* _LeafCloverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _LeafCloverUITests.m; sourceTree = "<group>"; };
 		7A0E4B91228B05FE000EDB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A90B5A722DB72B700A430FE /* DrawOnePictureInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DrawOnePictureInterface.hpp; path = 4LeafClover/DrawOnePictureInterface.hpp; sourceTree = SOURCE_ROOT; };
-		7A90B5A822DB72B700A430FE /* DrawOnePictureInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DrawOnePictureInterface.cpp; path = 4LeafClover/DrawOnePictureInterface.cpp; sourceTree = SOURCE_ROOT; };
+		7A0EDC3222ED7E1B00F8B3C5 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		7A0EDC3322ED86AC00F8B3C5 /* Common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Common.cpp; sourceTree = "<group>"; };
+		7A90B5A722DB72B700A430FE /* DrawOnePictureInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DrawOnePictureInterface.hpp; path = 4LeafClover/Interface/DrawOnePictureInterface.hpp; sourceTree = SOURCE_ROOT; };
+		7A90B5A822DB72B700A430FE /* DrawOnePictureInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DrawOnePictureInterface.cpp; path = 4LeafClover/Interface/DrawOnePictureInterface.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		7A0E4B6C228B05FE000EDB4B /* 4LeafClover */ = {
 			isa = PBXGroup;
 			children = (
+				7A0EDC3122ED7DE400F8B3C5 /* Common */,
 				7A0E4B9E228B1579000EDB4B /* Interface */,
 				7A0E4B9D228B156D000EDB4B /* Kernel */,
 				7A0E4B78228B05FE000EDB4B /* Info.plist */,
@@ -158,6 +162,15 @@
 				7A0E4B79228B05FE000EDB4B /* main.m */,
 			);
 			path = Mac;
+			sourceTree = "<group>";
+		};
+		7A0EDC3122ED7DE400F8B3C5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7A0EDC3222ED7E1B00F8B3C5 /* Common.h */,
+				7A0EDC3322ED86AC00F8B3C5 /* Common.cpp */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +305,7 @@
 				7A0E4B72228B05FE000EDB4B /* DrawOnePictureView.mm in Sources */,
 				7A90B5A922DB72B700A430FE /* DrawOnePictureInterface.cpp in Sources */,
 				7A0E4B7A228B05FE000EDB4B /* main.m in Sources */,
+				7A0EDC3422ED86AC00F8B3C5 /* Common.cpp in Sources */,
 				7A0E4B6F228B05FE000EDB4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
